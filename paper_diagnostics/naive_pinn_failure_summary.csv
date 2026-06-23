@@ -1,0 +1,33 @@
+Metric,Value,Units,Description
+state_rel_error_u,0.546627116365912,percent,Relative value error for velocity over the full grid.
+state_rel_error_C,0.316844651385709,percent,Relative value error for concentration over the full grid.
+state_rel_error_T,0.00527950571041375,percent,Relative value error for temperature over the full grid.
+derivative_rel_error_ut,2.43177232831435,percent,Relative error for neural derivative ut.
+derivative_rms_ratio_ut,1.00242209312685,ratio,RMS(neural derivative)/RMS(reference derivative) for ut.
+derivative_rel_error_ux,43.7196632206029,percent,Relative error for neural derivative ux.
+derivative_rms_ratio_ux,0.867360340976604,ratio,RMS(neural derivative)/RMS(reference derivative) for ux.
+derivative_rel_error_uxx,82.8463236372895,percent,Relative error for neural derivative uxx.
+derivative_rms_ratio_uxx,0.705705497123471,ratio,RMS(neural derivative)/RMS(reference derivative) for uxx.
+derivative_rel_error_Ct,4.55914231331896,percent,Relative error for neural derivative Ct.
+derivative_rms_ratio_Ct,1.00063436964973,ratio,RMS(neural derivative)/RMS(reference derivative) for Ct.
+derivative_rel_error_Cx,4.41176206828242,percent,Relative error for neural derivative Cx.
+derivative_rms_ratio_Cx,1.00523371789711,ratio,RMS(neural derivative)/RMS(reference derivative) for Cx.
+derivative_rel_error_Cxx,43.0386068509765,percent,Relative error for neural derivative Cxx.
+derivative_rms_ratio_Cxx,0.919027578934588,ratio,RMS(neural derivative)/RMS(reference derivative) for Cxx.
+derivative_rel_error_Tt,9.98622505062465,percent,Relative error for neural derivative Tt.
+derivative_rms_ratio_Tt,0.998580001011164,ratio,RMS(neural derivative)/RMS(reference derivative) for Tt.
+derivative_rel_error_Tx,1098.95086337118,percent,Relative error for neural derivative Tx.
+derivative_rms_ratio_Tx,11.0120364755941,ratio,RMS(neural derivative)/RMS(reference derivative) for Tx.
+derivative_rel_error_Txx,2113.92049645846,percent,Relative error for neural derivative Txx.
+derivative_rms_ratio_Txx,21.1188349497362,ratio,RMS(neural derivative)/RMS(reference derivative) for Txx.
+oracle_loss_true_geometry,1.03100993145453e-05,scaled loss,Scaled oracle residual loss at the true geometry.
+oracle_loss_initial_trajectory,0.002083507460682,scaled loss,Scaled oracle residual loss at the first naive trajectory point.
+oracle_loss_final_trajectory,0.000400235990125761,scaled loss,Scaled oracle residual loss at the final naive trajectory point.
+oracle_loss_final_over_true,38.8197996852576,ratio,Final naive-trajectory oracle loss divided by true-geometry oracle loss.
+oracle_loss_increase_initial_to_final,-80.7902780441808,percent,Percent increase in oracle loss from first to final naive trajectory point.
+oracle_Ru_rms_true_geometry,1.12403342997853e-05,RMS,Momentum residual RMS at the true geometry.
+oracle_Ru_rms_final_trajectory,0.00340731969209246,RMS,Momentum residual RMS at the final naive trajectory point.
+oracle_Ru_rms_final_over_true,303.133305577713,ratio,Final naive-trajectory momentum RMS divided by true-geometry momentum RMS.
+naive_final_delta,0.25541365146637,value,Final naive estimate of delta.
+naive_final_xt,0.584945678710938,value,Final naive estimate of x_t.
+naive_final_sigma,0.180754065513611,value,Final naive estimate of sigma.

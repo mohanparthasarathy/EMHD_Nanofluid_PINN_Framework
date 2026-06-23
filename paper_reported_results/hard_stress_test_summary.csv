@@ -1,0 +1,4 @@
+Quantity,TrueValue,EstimatedValue,ErrorPercent
+Delta,0.36000000,0.42263651,17.3990
+x_t,0.58000000,0.51096380,11.9028
+Sigma,0.10500000,0.08579858,18.2871
