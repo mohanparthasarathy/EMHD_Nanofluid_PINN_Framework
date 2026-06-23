@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# MATLAB editor/session files
+*.asv
+*.autosave
+*.m~
+*.mlx.autosave
+
+# MATLAB preferences and desktop state
+matlab.prf
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS files
+Thumbs.db
+
+# Generated figures
+# paper_figures/*.png
+# paper_figures/*.pdf
+
+# Generated diagnostics (optional)
+# paper_diagnostics/naive_inverse_PINN_results/
+
+# MATLAB code analyzer cache
+resources/project/Root.type.Files
+
+# ZIP packages
+*.zip
