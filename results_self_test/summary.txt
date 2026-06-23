@@ -1,0 +1,5 @@
+EMHD 1D delta/x_t/sigma PINN final summary
+delta true 0.3600000000 estimated 0.2204250842 error 38.770809 pct
+x_t true 0.5800000000 estimated 0.4294147789 error 25.962969 pct
+sigma true 0.1050000000 estimated 0.1601412445 error 52.515469 pct
+relU 2.17935568e+00 relC 3.50061437e-01 relT 1.18148599e-02
