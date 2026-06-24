@@ -57,31 +57,7 @@ t = double(sol.t(:));
 %% ------------------------------------------------------------------------
 %  Figure 1: model/geometry schematic
 % -------------------------------------------------------------------------
-% Creates a clean schematic if the original 1D_baseline_model_a.jpg is not
-% present. This can be used as the Section 2 geometry figure.
-try
-    h = double(sol.h(:));
-catch
-    h = emhd1d_geometry(x,cfg.geom.deltaTrue,cfg.geom.xtTrue,cfg.geom.sigmaTrue,cfg);
-end
-
-fig = figure('Color','w','Position',[100 100 1000 360]);
-fill([x; flipud(x)],[h; -flipud(h)],[0.92 0.96 1.00], ...
-    'EdgeColor','none'); hold on;
-plot(x,h,'k-','LineWidth',2);
-plot(x,-h,'k-','LineWidth',2);
-plot([cfg.geom.xtTrue cfg.geom.xtTrue],[-max(h) max(h)],'r--','LineWidth',1.5);
-text(cfg.geom.xtTrue+0.015,0.82*max(h),'tumor center $x_t$', ...
-    'Interpreter','latex','Color','r','FontSize',12);
-quiver(0.08,0,0.16,0,0,'LineWidth',2,'MaxHeadSize',0.7);
-text(0.08,0.12,'flow + EMHD forcing','FontSize',12);
-xlabel('$x$','Interpreter','latex');
-ylabel('$y$','Interpreter','latex');
-title('One-dimensional tumor-constricted vessel geometry','Interpreter','latex');
-axis tight; ylim(1.15*[-max(h) max(h)]); grid on; box on;
-exportgraphics(fig,fullfile(figDir,'fig01_model_schematic.png'),'Resolution',300);
-exportgraphics(fig,fullfile(figDir,'fig01_model_schematic.pdf'),'ContentType','vector');
-close(fig);
+% Run paper_figures/create_fig01.m
 
 %% ------------------------------------------------------------------------
 %  Figure 2: MMS convergence plot
