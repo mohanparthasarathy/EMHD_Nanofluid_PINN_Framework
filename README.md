@@ -1,5 +1,5 @@
 # EMHD_Nanofluid_PINN_Framework
-This repository contains the MATLAB codebase used in the chapter entitled "Physics-Informed Neural Network Framework for EMHD-Driven Targeted Nanofluid Delivery in the Tumor Microenvironment" in the upcoming edited book "Advances in Nanofluids – Modeling, Simulation, Experimentation, and Applications" to be published in Springer.
+This repository contains the MATLAB codebase used in the chapter entitled "Physics-Informed Inverse Modeling of EMHD Nanofluid Transport in Tumor-Constricted Microvessels" in the upcoming edited book "Advances in Nanofluids – Modeling, Simulation, Experimentation, and Applications" to be published in Springer.
 
 The code implements a one-dimensional electro-magnetohydrodynamic (EMHD) nanofluid transport model in a tumor-constricted microvessel and a staged inverse physics-informed neural network (PINN) for recovering the hidden vessel geometry from sparse noisy transport observations.
 
