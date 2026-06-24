@@ -121,6 +121,12 @@ Compact copies of the paper-reported values are stored in `paper_reported_result
 - The final observation-anchored geometry residual is constructed only from sparse noisy observations, not from the clean reference solution.
 - Saved `.mat`, `.png`, `.pdf`, and `.csv` files are included to document the final runs used in the manuscript.
 
+Requirements:
+- MATLAB R2019b or later
+- Deep Learning Toolbox
+- Statistics and Machine Learning Toolbox recommended for scattered-data interpolation
+Tested with: MATLAB R20XXx
+
 Because PINN training is stochastic and hardware-dependent, rerunning the full training may produce small numerical differences from the saved results. The qualitative findings and reported parameter-recovery behavior should be reproducible under the provided configuration.
 
 ## Output folders
