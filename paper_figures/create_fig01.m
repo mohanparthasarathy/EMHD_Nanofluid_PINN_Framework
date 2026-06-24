@@ -94,7 +94,7 @@ text(-1.5, -0.8, {'$u(x,t), C(x,t),$'; '$T(x,t)$'}, 'Interpreter', 'latex', 'Col
 
 % --- Outlet (Right Side) ---
 text(L, 2.6, 'Outlet', 'FontWeight', 'bold', 'HorizontalAlignment', 'center');
-text(L, 2.0, '$x = 1$', 'Interpreter', 'latex', 'HorizontalAlignment', 'center');
+text(L, 2.0, '$x = L$', 'Interpreter', 'latex', 'HorizontalAlignment', 'center');
 draw_arrow(L+0.5, 0, L+2.5, 0, 'b', 2.5);
 
 % --- Tumor Region Constriction ---
